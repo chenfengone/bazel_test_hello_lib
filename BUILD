@@ -4,5 +4,5 @@ cc_library(
     name = "hello-lib",
     srcs = ["hello-lib.cc"],
     hdrs = ["hello-lib.h"],
-    visibility = ["//main:__pkg__"],
+    visibility = ["//visibility:public"],
 )
